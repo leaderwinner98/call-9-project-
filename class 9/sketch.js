@@ -11,19 +11,19 @@ function draw()
   
 if(keyIsDown(RIGHT_ARROW)) {
   ball.position.x = ball.position.x + 5;
-  ball.shapeColor ="red";
+  background("red");
 }
 if(keyIsDown(LEFT_ARROW)){
   ball.position.x =  ball.position.x - 5;
-  ball.shapeColor ="blue";
+  background("blue");
 } 
 if(keyIsDown(DOWN_ARROW)){
   ball.position.y =  ball.position.y +5;
-  ball.shapeColor = "yellow";
+  background  ("yellow");
 }
 if(keyIsDown(UP_ARROW)){
   ball.position.y = ball.position.y -5;
-  ball.shapeColor = "green";
+  background ("green");
 }
 
 
